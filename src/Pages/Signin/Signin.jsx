@@ -8,7 +8,7 @@ function Signin() {
 
 
 <div className="absolute inset-0 bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:3rem_3rem]  [mask-image:radial-gradient(ellipse_45%_65%_at_50%_0%,#000_70%,transparent_110%)]  lg:bg-[size:6rem_6rem] md:mask-image:[radial-gradient(ellipse_0%_40%_at_50%_0%,#000_70%,transparent_110%)] -z-5"/>
-	<div className="h-screen w-screen py-44 mx-auto px-10 sm:py-24 z-10">
+	<div className="h-screen w-screen py-20 mx-auto px-10 sm:py-24 z-10">
 		<h1 className=' text-[2rem] sm:text-[4rem] font-bold text-center mb-10'>Crypto Check</h1>
 
 		<div className="mx-auto  max-w-xl bg-[#f2f2f7] px-5 py-12 text-center md:px-10 rounded-lg shadow-2xl ">
