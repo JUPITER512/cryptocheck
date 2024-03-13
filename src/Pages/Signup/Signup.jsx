@@ -13,7 +13,7 @@ function Signup() {
       <h1 className=' text-[2rem] sm:text-[4rem] font-bold text-center mb-2x'>Crypto Check</h1>
 		<div className="mx-auto max-w-xl bg-[#f2f2f7] px-5 py-12 text-center md:px-10 rounded-lg shadow-2xl ">
 
-			<h2 className="text-3xl font-bold md:text-5xl">Sign In</h2>
+			<h2 className="text-3xl font-bold md:text-5xl">Sign Up</h2>
 			<p className="mx-auto mb-5 mt-4 max-w-xl text-[#647084] md:mb-8">Welcome To CryptoCheck</p>
 				<div className="relative">
 					<img alt="" src={userImage} className="absolute bottom-0 left-[5%] right-auto top-[26%] inline-block" />
@@ -45,7 +45,7 @@ function Signup() {
 					</div>
 				</button>
         <p className=" mt-4 text-sm text-[#636262]">Already have an account?&nbsp;  
-        <Link to='/signin' className="font-[Montserrat,_sans-serif] text-sm font-bold text-black underline">Sign-up now</Link>
+        <Link to='/signin' className="font-[Montserrat,_sans-serif] text-sm font-bold text-black underline">Sign in now</Link>
         </p>
 		</div>
 	</div>
