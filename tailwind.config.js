@@ -7,5 +7,5 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [    require('./glowText.js'), ],
+  plugins: [],
 }
