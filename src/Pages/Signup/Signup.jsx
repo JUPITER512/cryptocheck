@@ -10,10 +10,10 @@ function Signup() {
 
 <div className="absolute inset-0 bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:3rem_3rem]  [mask-image:radial-gradient(ellipse_45%_65%_at_50%_0%,#000_70%,transparent_110%)]  lg:bg-[size:6rem_6rem] md:mask-image:[radial-gradient(ellipse_0%_40%_at_50%_0%,#000_70%,transparent_110%)] -z-5"/>
 	<div className="h-screen w-screen py-10 mx-auto px-10 sm:py-10 z-10">
-      <h1 className=' text-[2rem] sm:text-[4rem] font-bold text-center mb-2x'>Crypto Check</h1>
+	<h1 className=' text-[2rem] sm:text-[4rem] font-bold text-center mb-4 text-[#fcad4d] text-glow'>SoftQuant</h1>
 		<div className="mx-auto max-w-xl bg-[#f2f2f7] px-5 py-12 text-center md:px-10 rounded-lg shadow-2xl ">
 			<h2 className="text-3xl font-bold md:text-5xl">Sign Up</h2>
-			<p className="mx-auto mb-5 mt-4 max-w-xl text-[#647084] md:mb-8">Welcome To CryptoCheck</p>
+			<p className="mx-auto mb-5 mt-4 max-w-xl text-[#647084] md:mb-8">Build Better Build More</p>
 				<div className="relative">
 					<img alt="" src={userImage} className="absolute bottom-0 left-[5%] right-auto top-[26%] inline-block" />
           <Input placeholder="First Name" type='text' required={true} stateAtom={firstName}/>
@@ -30,7 +30,7 @@ function Signup() {
 					<img alt="" src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f19601037f879_Lock-2.svg" className="absolute bottom-0 left-[5%] right-auto top-[26%] inline-block" />
           <Input placeholder="Password (min 8 characters)" type='password' required={true} stateAtom={passwordState}/>
 				</div>
-				<div className="relative mb-4 pb-2">
+				<div className="relative ">
 					<img alt="" src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f19601037f879_Lock-2.svg" className="absolute bottom-0 left-[5%] right-auto top-[26%] inline-block" />
           <Input placeholder="Confrim Password (min 8 characters)" type='password' required={true} stateAtom={confrimPassword}/>
 				</div>
@@ -44,7 +44,7 @@ function Signup() {
 					</div>
 				</button>
         <p className=" mt-4 text-sm text-[#636262]">Already have an account?&nbsp;  
-        <Link to='/signin' className="font-[Montserrat,_sans-serif] text-sm font-bold text-black underline">Sign in now</Link>
+        <Link to='/signin' className="font-[Montserrat,_sans-serif] text-sm font-bold text-black underline">Log in now</Link>
         </p>
 		</div>
 	</div>
