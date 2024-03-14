@@ -19,7 +19,7 @@ function Signin() {
               <p className="text-gray-600 text-center mb-6">Build Better Build More</p>
 
               <div className="flex justify-center items-center gap-5 mb-8">
-                <h3 className="font-bold">Continue With:</h3>
+                <h3 className="font-bold">Continue With :</h3>
                 <button className="flex items-center justify-center px-3 py-1 bg-gray-200 text-gray-700 rounded-md shadow-sm hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2">
                   <FontAwesomeIcon icon={faDiscord} className="mr-1" />
                   <span className="font-bold">Discord</span>
