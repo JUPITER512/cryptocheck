@@ -10,10 +10,10 @@ function Signin() {
     <>
       <section className="relative min-h-screen bg-gradient-to-t from-orange-400 to-gray-50 flex flex-col justify-center items-center">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:3rem_3rem]  [mask-image:radial-gradient(ellipse_45%_65%_at_50%_0%,#000_70%,transparent_110%)]  lg:bg-[size:6rem_6rem] md:mask-image:[radial-gradient(ellipse_0%_40%_at_50%_0%,#000_70%,transparent_110%)] -z-5"/>
-        <div className="h-screen w-screen py-20 mx-auto px-10 sm:py-16 z-10">
+        <div className="h-screen w-screen py-10 mx-auto px-10 sm:py-16 z-10">
           <h1 className='text-[2rem] sm:text-[4rem] font-bold text-center mb-10 text-[#fcad4d]'>SoftQuant</h1>
 
-          <div className="mx-auto max-w-xl bg-white rounded-lg shadow-2xl overflow-hidden">
+          <div className="mx-auto max-w-xl bg-[#f2f2f7] rounded-lg shadow-2xl overflow-hidden">
             <div className="p-8 sm:p-12">
               <h2 className="text-3xl sm:text-5xl font-bold text-center mb-4">Log In</h2>
               <p className="text-gray-600 text-center mb-6">Build Better Build More</p>
