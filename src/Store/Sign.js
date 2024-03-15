@@ -19,3 +19,7 @@ export const passwordState=atom({
     key:'password',
     default:"",
 })
+export const phoneNumberState=atom({
+    key:'phoneNumber',
+    default:"",
+})
